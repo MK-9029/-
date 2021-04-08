@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 37.5px;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.main_header_box {
+    width: 100%;
+    height: 84px;
+    border-width: 1px;
+    border-left-style: none;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: solid;
+    border-color: #d0d0d0;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.header_container {
+    width: 1200px;
+    height: 84px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.zhongdian_logo {
+    width: 200px;
+    height: 84px;
+    background: url(./images/logo.gif) no-repeat center;
+    position: absolute;
+}
+
+.website_navigator {
+    width: 27px;
+    height: 84px;
+    position: absolute;
+    left: 200px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.website_navigator li {
+    float: left;
+    position: relative;
+    z-index: 100;
+}
+
+.website_navigator li a {
+    display: block;
+    background-color: #ffffff;
+}
+
+.website_navigator li:hover .navigator {
+    display: block;
+}
+
+.website_navigator li a .website_navigator_word:hover {
+    color: #666666;
+}
+
+.website_navigator li .navigator {
+    display: none;
+    position: absolute;
+    left: 0;
+}
+
+.website_navigator_header {
+    line-height: 28px;
+    font-size: 25px;
+    font-weight: 100;
+    height: 10px;
+    width: 27px;
+    text-align: center;
+    color: #666666;
+}
+
+.website_navigator_word {
+    width: 70px;
+    height: 39px;
+    line-height: 39px;
+    text-align: center;
+    color: #999999;
+    font-size: 10px;
+}
+
+.main_navigator {
+    width: 891px;
+    height: 80px;
+    position: absolute;
+    left: 242px;
+}
+
+.main_navigator_header {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    text-align: center;
+    color: #3f3f3f;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 80px;
+}
+
+.main_navigator_header.header1 {
+    left: 0;
+    color: #6ad1dd;
+}
+
+.main_navigator_header.header2 {
+    left: 80px;
+}
+
+.main_navigator_header.header3 {
+    left: 160px;
+}
+
+.main_navigator_header.header4 {
+    left: 240px;
+}
+
+.main_navigator_header.header5 {
+    left: 320px;
+}
+
+.main_navigator_header.header6 {
+    left: 400px;
+}
+
+.main_navigator_header.header7 {
+    left: 480px;
+}
+
+.main_navigator_header.header1 .bottom_color {
+    width: 32px;
+    height: 4px;
+    background-color: #6ad1dd;
+    position: absolute;
+    left: 24px;
+    top: 76px;
+}
+
+.main_search {
+    width: 24px;
+    height: 28px;
+    position: absolute;
+    top: 27px;
+    left: 842px;
+    background: url(./images/search1.jpg) no-repeat center;
+}
+
+.main_search:hover {
+    background: url(./images/search2.jpg) no-repeat center;
+}
+
+.main_sign {
+    width: 67px;
+    height: 80px;
+    position: absolute;
+    left: 1133px;
+}
+
+.main_sign .sign_in {
+    width: 24px;
+    height: 80px;
+    position: absolute;
+    left: 0;
+    line-height: 80px;
+    font-weight: 500;
+    font-size: 10px;
+    color: #3f3f3f;
+}
+
+.main_sign .sign_up {
+    width: 24px;
+    height: 80px;
+    position: absolute;
+    left: 43px;
+    line-height: 80px;
+    font-weight: 500;
+    font-size: 10px;
+    color: #3f3f3f;
+}
